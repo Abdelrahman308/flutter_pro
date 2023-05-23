@@ -1,9 +1,9 @@
 platform :ios, '11'
-
+source 'https://cdn.cocoapods.org/'
 target 'Runner' do
   use_frameworks!
   # Add your pod dependencies here
-  pod 'audioplayers', '~> 4.0.1'
+  pod 'audioplayers', '~> 0.19.1'
 
 
 end
