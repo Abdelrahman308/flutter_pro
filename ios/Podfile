@@ -1,8 +1,9 @@
-platform :ios, '11.0'
+platform :ios, '14'
 
 target 'Runner' do
   use_frameworks!
   # Add your pod dependencies here
+  pod 'audioplayers', '~> 4.0.1'
 
 
 end
